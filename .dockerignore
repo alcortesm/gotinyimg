@@ -1,0 +1,12 @@
+.gitignore
+.dockerignore
+Dockerfile
+LICENSE
+README.md
+vendor
+
+# Sadly Docker doesn't support an account wide dockerignore file yet, so
+# you have to add here the temporary files from your editor to prevent
+# them from invalidating your docker cache.
+**/*.swp
+**/*~
